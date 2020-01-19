@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap');
+
 body {
     margin: 0;
 }
@@ -23,14 +25,78 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    padding: 5px;
-    margin: 5px;
+
+    margin-top: calc(5% - 6px);
+    margin-right: 16%;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
 }
+
+.hed-1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 52px;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+    width: 450px;
+}
+
+.hed-2{
+    font-family: 'Roboto Light', sans-serif;
+    font-weight: lighter;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+
+    margin: 2%;
+}
+
+.but-head{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+
+    display: flex;
+    width: 255px;
+    height: 40px;
+    border: 4px solid rgba(255, 78, 80, 255);
+    background: rgba(255, 78, 80, 255);
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.but-head:hover{
+    border: 4px solid rgba(255, 255, 255, 255);
+    background: none;
+    color: rgba(255, 255, 255, 255);
+}
+
+.hed-3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(51, 51, 51, 255);
+    text-align: center;
+}
+
 
 .logo{
     position: absolute;
-    padding: 5px;
-    margin: 5px;
+    left: 16%;
+    margin-top: 5%;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
 }
 
 .head-centr{
@@ -38,7 +104,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    top: 50%;
+    margin-top: 10%;
 }
 
 .content{
@@ -121,20 +187,61 @@ body {
 
 .user-head{
     margin: 8px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(51, 51, 51, 255);
+    text-align: center;
 }
 
 .user-bio{
     margin: 8px;
+
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 14px;
+    color: rgba(102, 102, 102, 255);
+    text-align: center;
+    width: 211px;
 }
 
 .see-other-partners{
     display: flex;
     width: 192px;
     height: 40px;
-    border: 4px solid red;
+    border: 4px solid rgba(255, 78, 80, 255);
     border-radius: 40px;
     text-align: center;
-    color: red;
     align-items: center;
     justify-content: center;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(255, 78, 80, 255);
+
+    cursor: pointer;
+}
+
+.see-other-partners:hover{
+    color: white;
+    background: rgba(255, 78, 80, 255);
+}
+
+.button-auth{
+    display: flex;
+    width: 90px;
+    height: 36px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+.button-auth:hover{
+    border: 2px solid white;
+    border-radius: 40px;
+    width: 86px;
+    height: 30px;
 }
